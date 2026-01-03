@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Lato, sans-serif;
+    background: #FDFDFD;
+    color: #2E4053;
+}
+
+h1, h2 {
+    font-family: Playfair Display, serif;
+    color: #3498DB;
+}
+
+a {
+    color: #F4D03F;
+}
+
+section {
+    padding: 3rem;
+}
