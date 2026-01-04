@@ -4,13 +4,30 @@ body {
     background: #FDFDFD;
     color: #2E4053;
 }
-h1, h2 {
+
+h1, h2, h3 {
     font-family: Playfair Display;
     color: #3498DB;
 }
+
 a {
     color: #F4D03F;
+    text-decoration: none;
 }
+
 section {
     padding: 3rem;
+}
+
+button {
+    background: #3498DB;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
 }
