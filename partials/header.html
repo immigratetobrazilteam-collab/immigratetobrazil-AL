@@ -1,6 +1,23 @@
-<header>
-    <h1>Alagoas Immigration - The last twenty years have seen the tourist industry develop around the beaches and Maceió, which has changed from a sleepy little port with coconut palm plantations to high-rise hotels. The northern coast, particularly around Maragogi and Japaratinga, features resorts attracting people from the south and Europe, with considerable European investment in beach property north of Maceió.</h1>
-    <nav aria-label="Main navigation">
-        <!-- Include nav.html -->
-    </nav>
+<header id="main-header" class="bg-[#3498DB] text-[#2E4053] py-4 shadow-md" role="banner" itemscope itemtype="https://schema.org/WPHeader">
+    <div class="container mx-auto px-4 flex flex-wrap items-center justify-between gap-4">
+        <div class="site-branding flex items-center gap-4">
+            <img src="assets/al-logo.png" alt="Alagoas Logo" width="120" height="40" loading="lazy" class="max-h-10">
+            <div>
+                <h1 class="text-2xl font-[Playfair Display] mb-1" itemprop="name">Alagoas Immigration</h1>
+            </div>
+        </div>
+        <form class="search-form flex gap-2" role="search" method="get" action="/search" aria-label="Site search">
+            <input type="search" name="q" placeholder="Search visas, costs..." class="px-3 py-1 border rounded" required>
+            <button type="submit" class="bg-[#F4D03F] text-white px-3 py-1 rounded" aria-label="Search">🔍</button>
+        </form>
+        <div class="language-switcher" role="region" aria-label="Language selection">
+    <button data-lang="en">English</button>
+    <button data-lang="pt">Português</button>
+    <button data-lang="es">Español</button>
+</div>
+        <nav aria-label="Main navigation" class="hidden md:block">
+            <!-- Include generate_nav_html(state, services_data) -->
+        </nav>
+        <!-- Include generate_mobile_nav_html(state, services_data) for mobile -->
+    </div>
 </header>
