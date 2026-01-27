@@ -1,0 +1,93 @@
+{
+    "persona": {
+        "label": "Coastal Relaxer",
+        "tone": "Calm, sunny, leisurely",
+        "visual_intensity": "low",
+        "risk_tolerance": "conservative"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#3182ce",
+            "secondary": "#2b6cb0",
+            "accent": "#63b3ed",
+            "bg": "#ebf8ff",
+            "text": "#2c5282",
+            "hover": "#2c5282",
+            "active": "#2a4365",
+            "focus": "#3182ce",
+            "success": "#48bb78",
+            "error": "#f56565",
+            "warning": "#faf089",
+            "info": "#4299e1",
+            "neutral": "#edf2f7",
+            "link": "#2b6cb0",
+            "border": "#90cdf4",
+            "surface": "#bee3f8",
+            "gradient_bg": "linear-gradient(to top, #ebf8ff, #bee3f8)"
+        },
+        "typography": {
+            "primary_font": "'Lato', system-ui, sans-serif",
+            "base_size": "16px",
+            "line_height": "1.7",
+            "heading_sizes": [
+                "2.4rem",
+                "2.0rem",
+                "1.7rem",
+                "1.5rem",
+                "1.2rem",
+                "1.0rem"
+            ]
+        },
+        "spacing": {
+            "xs": "6px",
+            "s": "12px",
+            "m": "24px",
+            "l": "36px",
+            "xl": "48px",
+            "xxl": "72px"
+        },
+        "borders": {
+            "radius": "12px"
+        },
+        "shadows": {
+            "low": "0 3px 5px rgba(44,82,130,0.05)",
+            "medium": "0 8px 16px rgba(44,82,130,0.1)"
+        },
+        "motion": {
+            "timing": "0.5s ease"
+        },
+        "breakpoints": {
+            "tablet": "768px",
+            "desktop": "1024px"
+        },
+        "animations": {
+            "duration_base": 0.4,
+            "ease_default": "linear",
+            "intensity_mod": 0.8,
+            "risk_ease": "ease-in",
+            "mobile_mod": 0.6
+        }
+    },
+    "page_customizations": {
+        "home": {
+            "hero_bg": "var(--color-surface)",
+            "cta_color": "var(--color-accent)",
+            "section_border": "var(--color-border)"
+        },
+        "about": {
+            "intro_text": "var(--color-text)",
+            "section_border": "var(--color-border)",
+            "hero_bg": "var(--color-neutral)"
+        },
+        "services": {
+            "overview_bg": "var(--color-surface)",
+            "item_accent": "var(--color-accent)",
+            "list_color": "var(--color-info)"
+        },
+        "contact": {
+            "form_bg": "var(--color-surface)",
+            "submit_btn": "var(--color-primary)",
+            "input_border": "var(--color-border)"
+        }
+    }
+}
